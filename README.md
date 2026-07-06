@@ -5,6 +5,8 @@ API, UI, mobile (real devices), load, and visual regression testing. Below
 is a portfolio of focused example projects, each self-contained with its
 own CI pipeline.
 
+📄 [Resume](./Joshua_Giller_Resume.pdf)
+
 ## Projects
 
 | Project | Stack | What it demonstrates |

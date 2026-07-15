@@ -18,7 +18,7 @@ own CI pipeline.
 | [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp) | C#, NUnit, Playwright, Applitools Eyes | AI-powered visual regression testing; Ultrafast Grid rendering across multiple browsers/devices from a single local page load |
 | [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample) | Apache JMeter | Parameterized load test plan against a REST API; CLI-driven execution with HTML dashboard reporting; on-demand CI workflow with configurable load |
 | [AzureLoadTestingExample](https://github.com/gillersja1/AzureLoadTestingExample) | Apache JMeter, Azure Load Testing (Azure App Testing) | The same JMeter test plan run through Azure's managed, cloud-scale load testing service instead of locally; CI-triggered via the official GitHub Action; failure criteria and auto-stop configured in YAML |
-| [NeverDeliverShopTests](https://github.com/gillersja1/NeverDeliverShopTests)) | TypeScript, Playwright Test | Utilizes one of the new "never deliver" sites to show an example of a purchase flow |
+| [NeverDeliverShopTests](https://github.com/gillersja1/NeverDeliverShopTests) | TypeScript, Playwright Test | Utilizes one of the new "never deliver" sites to show an example of a purchase flow |
 
 ## Why these projects
 

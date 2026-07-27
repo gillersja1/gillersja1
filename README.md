@@ -1,11 +1,9 @@
 # Hi, I'm Josh 👋
 
-I build test automation across multiple languages and frameworks — unit,
-API, UI, mobile (real devices), load, and visual regression testing. Below
-is a portfolio of focused example projects, each self-contained with its
-own CI pipeline.
+In addition to being a huge Dungeon Crawler Carl fan, I build test automation across multiple languages and frameworks — unit,
+API, UI, mobile (real devices), load, and visual regression testing. Below is a portfolio of focused example projects, each self-contained with its own CI pipeline.
 
-📄 [Resume](./Joshua_Giller_Resume.pdf)
+📄 [LinkedIn](https://www.linkedin.com/in/josh-giller/)
 
 ## Projects
 

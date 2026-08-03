@@ -5,6 +5,8 @@ API, UI, mobile (real devices), load, and visual regression testing. Below is a 
 
 📄 [LinkedIn](https://www.linkedin.com/in/josh-giller/)
 
+Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQuest](https://www.playwrightquest.com/)
+
 ## Projects
 
 | Project | Stack | What it demonstrates |

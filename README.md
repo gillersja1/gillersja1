@@ -1,7 +1,6 @@
-# Hi, I'm Josh 👋
+# Josh Giller | Quality Analyst & Test Automation Engineer
 
-In addition to being a huge Dungeon Crawler Carl fan, I build test automation across multiple languages and frameworks — unit,
-API, UI, mobile (real devices), load, and visual regression testing. Below is a portfolio of focused example projects, each self-contained with its own CI pipeline.
+I help teams build confidence in software by testing behavior across unit, API, UI, real mobile devices, performance, and visual quality. This portfolio demonstrates hands-on quality analysis and automation engineering across C#, TypeScript, and Java, with CI pipelines and reporting that make results actionable.
 
 📄 [LinkedIn](https://www.linkedin.com/in/josh-giller/)
 
@@ -20,14 +19,15 @@ Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQue
 | [AzureLoadTestingExample](https://github.com/gillersja1/AzureLoadTestingExample) | Apache JMeter, Azure Load Testing (Azure App Testing) | The same JMeter test plan run through Azure's managed, cloud-scale load testing service instead of locally; CI-triggered via the official GitHub Action; failure criteria and auto-stop configured in YAML |
 | [NeverDeliverShopTests](https://github.com/gillersja1/NeverDeliverShopTests) | TypeScript, Playwright Test | Utilizes one of the new "never deliver" sites to show an example of a purchase flow |
 
-## Why these projects
+## Quality engineering focus
 
-Together, these cover the testing layers a QA/SDET role typically touches:
+These projects show how I approach quality from multiple angles:
 
-- **Functional correctness** — unit tests (business logic), API tests (contract/behavior), UI tests (end-to-end user flows)
-- **Cross-platform coverage** — desktop browsers, real mobile devices, and emulated mobile viewports
-- **Non-functional testing** — load/performance testing, both self-hosted (JMeter locally) and cloud-managed (Azure Load Testing)
-- **Beyond functional assertions** — visual regression testing catching layout/rendering bugs that behavioral assertions can't
+- **Analyze behavior at multiple layers** — unit, API, and end-to-end checks help pinpoint where a defect occurs
+- **Assess platform and device coverage** — desktop browsers, real mobile devices, and mobile viewport emulation
+- **Evaluate non-functional quality** — load testing locally and through managed Azure infrastructure
+- **Catch visual regressions** — deterministic assertions and AI-based visual comparison complement functional checks
+- **Make feedback useful** — CI workflows and test reports help teams review outcomes and investigate failures
 
 They also intentionally span **two languages** (C# and TypeScript), **two
 WebDriver-style tools** (Playwright and Selenium), and **two visual-testing

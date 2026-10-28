@@ -1,23 +1,39 @@
 # Josh Giller | Quality Analyst & Test Automation Engineer
 
-I help teams build confidence in software by testing behavior across unit, API, UI, real mobile devices, performance, and visual quality. This portfolio demonstrates hands-on quality analysis and automation engineering across C#, TypeScript, and Java, with CI pipelines and reporting that make results actionable.
+I help teams build confidence in software by testing behavior across unit, API, UI, real mobile devices, performance, and visual quality. This portfolio demonstrates hands-on quality analysis and automation engineering across C#, TypeScript, and Kotlin, with CI pipelines and reporting that make results actionable.
 
 📄 [LinkedIn](https://www.linkedin.com/in/josh-giller/)
 
 Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQuest](https://www.playwrightquest.com/)
 
+## Skills at a glance
+
+| Skill | Where to see it |
+|---|---|
+| UI automation (Playwright, Selenium) | [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase), [PlaywrightTsUiTests](https://github.com/gillersja1/PlaywrightTsUiTests), [SeleniumCSharpUiTests](https://github.com/gillersja1/SeleniumCSharpUiTests) |
+| API testing | [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase) (Playwright API), [PostmanReports](https://github.com/gillersja1/PostmanReports) (Postman/Newman) |
+| Real-device mobile testing | [BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests) |
+| Native Android app & tests | [CollectorsTrackingApp](https://github.com/gillersja1/CollectorsTrackingApp) |
+| Visual regression | [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp) |
+| Accessibility | [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase) |
+| Performance / load | [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample), [AzureLoadTestingExample](https://github.com/gillersja1/AzureLoadTestingExample) |
+| CI/CD & reporting | GitHub Actions in every repo; Allure, Playwright HTML, JMeter dashboards |
+| Secret hygiene | gitleaks secret scanning in CI ([BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests)) |
+
 ## Projects
 
-| Project | Stack | What it demonstrates |
-|---|---|---|
-| [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase) | C#, NUnit, Playwright | Unit, API, and UI tests in one solution; Page Object Model; Allure reporting merged across all three layers; cross-browser CI matrix (Chromium/Firefox/WebKit) |
-| [SeleniumCSharpUiTests](https://github.com/gillersja1/SeleniumCSharpUiTests) | C#, NUnit, Selenium WebDriver | UI tests via the other major WebDriver-style tool, for direct comparison against the Playwright C# suite; Selenium Manager handles driver binaries automatically |
-| [BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests) | C#, NUnit, Playwright, BrowserStack | UI tests running on **real mobile devices** (not emulators) via BrowserStack Automate; no BrowserStack-specific test code required |
-| [PlaywrightTsUiTests](https://github.com/gillersja1/PlaywrightTsUiTests) | TypeScript, Playwright Test | Idiomatic Playwright Test + Page Object Model; cross-browser and mobile-viewport emulation via declarative config; CI with HTML report artifacts |
-| [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp) | C#, NUnit, Playwright, Applitools Eyes | AI-powered visual regression testing; Ultrafast Grid rendering across multiple browsers/devices from a single local page load |
-| [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample) | Apache JMeter | Parameterized load test plan against a REST API; CLI-driven execution with HTML dashboard reporting; on-demand CI workflow with configurable load |
-| [AzureLoadTestingExample](https://github.com/gillersja1/AzureLoadTestingExample) | Apache JMeter, Azure Load Testing (Azure App Testing) | The same JMeter test plan run through Azure's managed, cloud-scale load testing service instead of locally; CI-triggered via the official GitHub Action; failure criteria and auto-stop configured in YAML |
-| [NeverDeliverShopTests](https://github.com/gillersja1/NeverDeliverShopTests) | TypeScript, Playwright Test | Utilizes one of the new "never deliver" sites to show an example of a purchase flow |
+| Project | Stack | What it demonstrates | CI |
+|---|---|---|---|
+| [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase) | C#, NUnit, Playwright | Unit, API, and UI tests in one solution; Page Object Model; Allure reporting merged across all three layers; cross-browser CI matrix (Chromium/Firefox/WebKit) | [![CI](https://github.com/gillersja1/PlaywrightTestingShowcase/actions/workflows/ci.yml/badge.svg)](https://github.com/gillersja1/PlaywrightTestingShowcase/actions/workflows/ci.yml) |
+| [PlaywrightTsUiTests](https://github.com/gillersja1/PlaywrightTsUiTests) | TypeScript, Playwright Test | Idiomatic Playwright Test + Page Object Model; cross-browser and mobile-viewport emulation via declarative config; CI with HTML report artifacts | [![CI](https://github.com/gillersja1/PlaywrightTsUiTests/actions/workflows/playwright.yml/badge.svg)](https://github.com/gillersja1/PlaywrightTsUiTests/actions/workflows/playwright.yml) |
+| [BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests) | C#, NUnit, Playwright, BrowserStack | UI tests running on **real mobile devices** (not emulators) via BrowserStack Automate; credentials kept in CI secrets with a gitleaks scan on every push | [![CI](https://github.com/gillersja1/BrowserStackMobileTests/actions/workflows/browserstack-mobile.yml/badge.svg)](https://github.com/gillersja1/BrowserStackMobileTests/actions/workflows/browserstack-mobile.yml) |
+| [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp) | C#, NUnit, Playwright, Applitools Eyes | AI-powered visual regression testing; Ultrafast Grid rendering across multiple browsers/devices from a single local page load | [![CI](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp/actions/workflows/applitools-visual-tests.yml/badge.svg)](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp/actions/workflows/applitools-visual-tests.yml) |
+| [SeleniumCSharpUiTests](https://github.com/gillersja1/SeleniumCSharpUiTests) | C#, NUnit, Selenium WebDriver | The same kind of UI suite built with Selenium, for direct comparison against the Playwright C# suite; Selenium Manager handles driver binaries automatically | [![CI](https://github.com/gillersja1/SeleniumCSharpUiTests/actions/workflows/selenium-tests.yml/badge.svg)](https://github.com/gillersja1/SeleniumCSharpUiTests/actions/workflows/selenium-tests.yml) |
+| [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample) | Apache JMeter | Parameterized load test plan against a REST API; CLI-driven execution with HTML dashboard reporting; on-demand CI workflow with configurable load | [![CI](https://github.com/gillersja1/JMeterLoadTestExample/actions/workflows/load-test.yml/badge.svg)](https://github.com/gillersja1/JMeterLoadTestExample/actions/workflows/load-test.yml) |
+| [AzureLoadTestingExample](https://github.com/gillersja1/AzureLoadTestingExample) | Apache JMeter, Azure Load Testing | The same JMeter test plan run through Azure's managed, cloud-scale load testing service; CI-triggered via the official GitHub Action; failure criteria and auto-stop configured in YAML | — |
+| [PostmanReports](https://github.com/gillersja1/PostmanReports) | Postman, Newman, GitHub Actions | API test collection run headlessly with Newman in CI, producing test reports | — |
+| [NeverDeliverShopTests](https://github.com/gillersja1/NeverDeliverShopTests) | TypeScript, Playwright Test | Purchase-flow tests against a satirical "never deliver" e-commerce demo site, using role- and text-based locators | [![CI](https://github.com/gillersja1/NeverDeliverShopTests/actions/workflows/playwright.yml/badge.svg)](https://github.com/gillersja1/NeverDeliverShopTests/actions/workflows/playwright.yml) |
+| [CollectorsTrackingApp](https://github.com/gillersja1/CollectorsTrackingApp) | Kotlin, Android, Room, Firebase | An Android app I built and test myself — unit and instrumented tests, with CI building the APK on every push | [![CI](https://github.com/gillersja1/CollectorsTrackingApp/actions/workflows/android.yml/badge.svg)](https://github.com/gillersja1/CollectorsTrackingApp/actions/workflows/android.yml) |
 
 ## Quality engineering focus
 
@@ -25,24 +41,22 @@ These projects show how I approach quality from multiple angles:
 
 - **Analyze behavior at multiple layers** — unit, API, and end-to-end checks help pinpoint where a defect occurs
 - **Assess platform and device coverage** — desktop browsers, real mobile devices, and mobile viewport emulation
-- **Evaluate non-functional quality** — load testing locally and through managed Azure infrastructure
-- **Catch visual regressions** — deterministic assertions and AI-based visual comparison complement functional checks
+- **Evaluate non-functional quality** — load testing locally and through managed Azure infrastructure, plus accessibility checks
+- **Catch visual regressions** — AI-based visual comparison complements functional assertions
 - **Make feedback useful** — CI workflows and test reports help teams review outcomes and investigate failures
 
-They also intentionally span **two languages** (C# and TypeScript), **two
-WebDriver-style tools** (Playwright and Selenium), and **two visual-testing
-philosophies** (deterministic pixel/DOM assertions in the UI suites vs.
-AI-based visual comparison with Applitools), to show range rather than
-depth in only one stack.
+They also intentionally span **three languages** (C#, TypeScript, and
+Kotlin) and **two browser automation tools** (Playwright and Selenium
+WebDriver), to show range rather than depth in only one stack.
 
 ## A shared test target
 
-Most of these point at [saucedemo.com](https://www.saucedemo.com/) — a
-public demo store built specifically for test automation practice — so
-the same application is exercised across nearly every project. That makes
-it easy to compare *how* each tool/framework approaches the same problem
-(e.g., the Playwright C# UI suite vs. the Playwright TypeScript UI suite,
-testing the same login flow).
+Most of the web UI suites point at [saucedemo.com](https://www.saucedemo.com/) —
+a public demo store built specifically for test automation practice — so
+the same application is exercised across several projects. That makes it
+easy to compare *how* each tool/framework approaches the same problem
+(e.g., the Playwright C# UI suite vs. the Playwright TypeScript UI suite vs.
+the Selenium suite, testing the same login flow).
 
 ## Where to start
 

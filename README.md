@@ -12,10 +12,12 @@ Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQue
 |---|---|
 | UI automation (Playwright, Selenium) | [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase), [PlaywrightTsUiTests](https://github.com/gillersja1/PlaywrightTsUiTests), [SeleniumCSharpUiTests](https://github.com/gillersja1/SeleniumCSharpUiTests) |
 | API testing | [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase) (Playwright API), [PostmanReports](https://github.com/gillersja1/PostmanReports) (Postman/Newman) |
+| Contract testing | [PactContractTestingExample](https://github.com/gillersja1/PactContractTestingExample) (Pact, consumer-driven) |
 | Real-device mobile testing | [BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests) |
 | Native Android app & tests | [CollectorsTrackingApp](https://github.com/gillersja1/CollectorsTrackingApp) |
 | Visual regression | [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp) |
 | Accessibility | [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase) |
+| Test strategy | [PlaywrightTestingShowcase/docs/TEST_STRATEGY.md](https://github.com/gillersja1/PlaywrightTestingShowcase/blob/main/docs/TEST_STRATEGY.md): risk-based coverage, flaky-test policy, defect triage |
 | Performance / load | [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample), [K6LoadTestExample](https://github.com/gillersja1/K6LoadTestExample) |
 | CI/CD & reporting | GitHub Actions in every repo; Allure, Playwright HTML, JMeter dashboards |
 | Secret hygiene | gitleaks secret scanning in CI ([BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests)) |
@@ -32,6 +34,7 @@ Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQue
 | [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample) | Apache JMeter, Node.js | Parameterized load test plan against a local reqres-compatible mock API; CI fails the build on latency or error-rate thresholds; HTML dashboard reporting | [![CI](https://github.com/gillersja1/JMeterLoadTestExample/actions/workflows/load-test.yml/badge.svg)](https://github.com/gillersja1/JMeterLoadTestExample/actions/workflows/load-test.yml) |
 | [K6LoadTestExample](https://github.com/gillersja1/K6LoadTestExample) | Grafana k6, JavaScript | The same load test written as code: ramping scenario, per-endpoint checks, and thresholds (with early abort) defined in the script; HTML dashboard and job-summary report in CI | [![CI](https://github.com/gillersja1/K6LoadTestExample/actions/workflows/k6-load-test.yml/badge.svg)](https://github.com/gillersja1/K6LoadTestExample/actions/workflows/k6-load-test.yml) |
 | [PostmanReports](https://github.com/gillersja1/PostmanReports) | Postman, Newman, GitHub Actions | API test collection (37 requests, 53 assertions) run with Newman in CI; real API defects tracked in a non-blocking Known Defects folder; HTML and JUnit reports | [![CI](https://github.com/gillersja1/PostmanReports/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/gillersja1/PostmanReports/actions/workflows/github-actions-demo.yml) |
+| [PactContractTestingExample](https://github.com/gillersja1/PactContractTestingExample) | C#, NUnit, PactNet, ASP.NET Core | Consumer-driven contract tests: the consumer generates a pact against a mock server, the provider verifies the real API against it in CI; includes tests proving a renamed field breaks the contract and an added field does not | [![CI](https://github.com/gillersja1/PactContractTestingExample/actions/workflows/contract-tests.yml/badge.svg)](https://github.com/gillersja1/PactContractTestingExample/actions/workflows/contract-tests.yml) |
 | [NeverDeliverShopTests](https://github.com/gillersja1/NeverDeliverShopTests) | TypeScript, Playwright Test | Purchase-flow tests against a satirical "never deliver" e-commerce demo site, using role- and text-based locators | [![CI](https://github.com/gillersja1/NeverDeliverShopTests/actions/workflows/playwright.yml/badge.svg)](https://github.com/gillersja1/NeverDeliverShopTests/actions/workflows/playwright.yml) |
 | [CollectorsTrackingApp](https://github.com/gillersja1/CollectorsTrackingApp) | Kotlin, Android, Room, Firebase | An Android app I built and test myself — unit and instrumented tests, with CI building the APK on every push | [![CI](https://github.com/gillersja1/CollectorsTrackingApp/actions/workflows/android.yml/badge.svg)](https://github.com/gillersja1/CollectorsTrackingApp/actions/workflows/android.yml) |
 
@@ -39,7 +42,7 @@ Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQue
 
 These projects show how I approach quality from multiple angles:
 
-- **Analyze behavior at multiple layers** — unit, API, and end-to-end checks help pinpoint where a defect occurs
+- **Analyze behavior at multiple layers** — unit, API, contract, and end-to-end checks help pinpoint where a defect occurs
 - **Assess platform and device coverage** — desktop browsers, real mobile devices, and mobile viewport emulation
 - **Evaluate non-functional quality** — load testing with pass/fail thresholds in two tools (JMeter and k6), plus accessibility checks
 - **Catch visual regressions** — AI-based visual comparison complements functional assertions

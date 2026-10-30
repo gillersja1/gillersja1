@@ -20,6 +20,7 @@ Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQue
 | Test strategy | [PlaywrightTestingShowcase/docs/TEST_STRATEGY.md](https://github.com/gillersja1/PlaywrightTestingShowcase/blob/main/docs/TEST_STRATEGY.md): risk-based coverage, flaky-test policy, defect triage |
 | Performance / load | [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample), [K6LoadTestExample](https://github.com/gillersja1/K6LoadTestExample) |
 | CI/CD & reporting | GitHub Actions in every repo; Allure, Playwright HTML, JMeter dashboards |
+| Observability | Every repo's CI test results sent to one Grafana Cloud dashboard over OpenTelemetry ([test-results-otel](https://github.com/gillersja1/test-results-otel)) |
 | Secret hygiene | gitleaks secret scanning in CI ([BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests)) |
 
 ## Projects
@@ -36,6 +37,7 @@ Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQue
 | [PostmanReports](https://github.com/gillersja1/PostmanReports) | Postman, Newman, GitHub Actions | API test collection (37 requests, 53 assertions) run with Newman in CI; real API defects tracked in a non-blocking Known Defects folder; HTML and JUnit reports | [![CI](https://github.com/gillersja1/PostmanReports/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/gillersja1/PostmanReports/actions/workflows/github-actions-demo.yml) |
 | [PactContractTestingExample](https://github.com/gillersja1/PactContractTestingExample) | C#, NUnit, PactNet, ASP.NET Core | Consumer-driven contract tests: the consumer generates a pact against a mock server, the provider verifies the real API against it in CI; includes tests proving a renamed field breaks the contract and an added field does not | [![CI](https://github.com/gillersja1/PactContractTestingExample/actions/workflows/contract-tests.yml/badge.svg)](https://github.com/gillersja1/PactContractTestingExample/actions/workflows/contract-tests.yml) |
 | [NeverDeliverShopTests](https://github.com/gillersja1/NeverDeliverShopTests) | TypeScript, Playwright Test | Purchase-flow tests against a satirical "never deliver" e-commerce demo site, using role- and text-based locators | [![CI](https://github.com/gillersja1/NeverDeliverShopTests/actions/workflows/playwright.yml/badge.svg)](https://github.com/gillersja1/NeverDeliverShopTests/actions/workflows/playwright.yml) |
+| [test-results-otel](https://github.com/gillersja1/test-results-otel) | Python, GitHub Actions, OpenTelemetry, Grafana | A reusable GitHub Action that turns TRX, JUnit, k6 and JMeter results into OpenTelemetry logs and metrics; every repo here sends its CI results to one Grafana dashboard (pass rate, failures with run links, flaky and slowest tests, known defects, load-test checks) | [![CI](https://github.com/gillersja1/test-results-otel/actions/workflows/ci.yml/badge.svg)](https://github.com/gillersja1/test-results-otel/actions/workflows/ci.yml) |
 | [CollectorsTrackingApp](https://github.com/gillersja1/CollectorsTrackingApp) | Kotlin, Android, Room, Firebase | An Android app I built and test myself — unit and instrumented tests, with CI building the APK on every push | [![CI](https://github.com/gillersja1/CollectorsTrackingApp/actions/workflows/android.yml/badge.svg)](https://github.com/gillersja1/CollectorsTrackingApp/actions/workflows/android.yml) |
 
 ## Quality engineering focus
@@ -46,7 +48,7 @@ These projects show how I approach quality from multiple angles:
 - **Assess platform and device coverage** — desktop browsers, real mobile devices, and mobile viewport emulation
 - **Evaluate non-functional quality** — load testing with pass/fail thresholds in two tools (JMeter and k6), plus accessibility checks
 - **Catch visual regressions** — AI-based visual comparison complements functional assertions
-- **Make feedback useful** — CI workflows and test reports help teams review outcomes and investigate failures
+- **Make feedback useful** — CI workflows and test reports help teams review outcomes and investigate failures, and one dashboard tracks pass rates, flaky tests and known defects across every repo
 
 They also intentionally span **three languages** (C#, TypeScript, and
 Kotlin) and **two browser automation tools** (Playwright and Selenium

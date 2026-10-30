@@ -4,7 +4,7 @@ I help teams build confidence in software by testing behavior across unit, API, 
 
 📄 [LinkedIn](https://www.linkedin.com/in/josh-giller/)
 
-Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQuest](https://www.playwrightquest.com/)
+📊 [Live test dashboard](https://azureteal56.grafana.net/public-dashboards/75e468f01dbe46d39825dd87a9c6d1a6): pass rates, failures, flaky tests and load-test results from every repo below, updated on each CI run
 
 ## Skills at a glance
 
@@ -20,7 +20,7 @@ Want to learn Playwright TS? Check out this fun, interactive game [PlaywrightQue
 | Test strategy | [PlaywrightTestingShowcase/docs/TEST_STRATEGY.md](https://github.com/gillersja1/PlaywrightTestingShowcase/blob/main/docs/TEST_STRATEGY.md): risk-based coverage, flaky-test policy, defect triage |
 | Performance / load | [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample), [K6LoadTestExample](https://github.com/gillersja1/K6LoadTestExample) |
 | CI/CD & reporting | GitHub Actions in every repo; Allure, Playwright HTML, JMeter dashboards |
-| Observability | Every repo's CI test results sent to one Grafana Cloud dashboard over OpenTelemetry ([test-results-otel](https://github.com/gillersja1/test-results-otel)) |
+| Observability | Every repo's CI test results sent to one Grafana Cloud dashboard over OpenTelemetry ([test-results-otel](https://github.com/gillersja1/test-results-otel), [live dashboard](https://azureteal56.grafana.net/public-dashboards/75e468f01dbe46d39825dd87a9c6d1a6)) |
 | Secret hygiene | gitleaks secret scanning in CI ([BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests)) |
 
 ## Projects

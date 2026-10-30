@@ -2,11 +2,11 @@
 
 I help teams build confidence in software by testing behavior across unit, API, UI, real mobile devices, performance, and visual quality. This portfolio demonstrates hands-on quality analysis and automation engineering across C#, TypeScript, and Kotlin, with CI pipelines and reporting that make results actionable.
 
-🎮 **Want to learn Playwright for .NET?** Play the [Playwright Dungeon Crawl](https://playwright-dungeon-crawl.onrender.com), a free, hands-on game I built: write real Playwright tests to clear trap rooms and earn treasure. *It's on a free host, so the first visit can take a minute to wake up.*
-
 📄 [LinkedIn](https://www.linkedin.com/in/josh-giller/)
 
 📊 [Live test dashboard](https://azureteal56.grafana.net/public-dashboards/75e468f01dbe46d39825dd87a9c6d1a6): pass rates, failures, flaky tests and load-test results from every repo below, updated on each CI run
+
+🎮 **Want to learn Playwright for .NET?** Play the [Playwright Dungeon Crawl](https://playwright-dungeon-crawl.onrender.com), a free, hands-on game I built: write real Playwright tests to clear trap rooms and earn treasure. *It's on a free host, so the first visit can take a minute to wake up.*
 
 ## Skills at a glance
 

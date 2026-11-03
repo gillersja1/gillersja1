@@ -8,6 +8,17 @@ I help teams build confidence in software by testing behavior across unit, API, 
 
 🎮 **Want to learn Playwright?** Play the [Playwright Dungeon Crawl](https://playwright-dungeon-crawl.onrender.com), a free, hands-on game I built: write real Playwright tests, in **C# or TypeScript**, to clear trap rooms floor by floor. Nine floors so far, from locators and auto-waiting to network interception, juggling tabs and mouse work, with a boss on floor 7. Sign in with GitHub to save your progress, climb the leaderboard, earn a verifiable certificate you can add to LinkedIn, replay cleared rooms as Cursed Runs, and join the Hall of Bugslayers by reporting a real bug in the game. *It's on a free host, so the first visit can take a minute to wake up.*
 
+## Where to start
+
+Short on time? These four show the most:
+
+- **[PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase)**: the broadest single repo. Unit, API and UI tests in one solution, cross-browser CI, Allure reports, and mutation testing.
+- **[DevtestLike](https://github.com/gillersja1/DevtestLike)**: enterprise integration testing. SOAP/XML workflows, OAuth2 + WS-Security, database validations, messaging and a virtualized third-party service, all started by `dotnet test`.
+- **[Playwright Dungeon Crawl](https://playwright-dungeon-crawl.onrender.com)**: a live product I built, ship and test: 9 floors, 140+ server tests and 60 reference solutions run against its Docker image on every change.
+- **[Live test dashboard](https://azureteal56.grafana.net/public-dashboards/75e468f01dbe46d39825dd87a9c6d1a6)**: every repo's CI results in one Grafana view (pass rates, failures, flaky tests).
+
+From there, [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp) and [BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests) each add a specialized capability on the same Playwright/C#/NUnit foundation, and [JMeterLoadTestExample](https://github.com/gillersja1/JMeterLoadTestExample) / [K6LoadTestExample](https://github.com/gillersja1/K6LoadTestExample) show the same load test built in a GUI tool and written as code.
+
 ## Skills at a glance
 
 | Skill | Where to see it |
@@ -76,13 +87,3 @@ the same application is exercised across several projects. That makes it
 easy to compare *how* each tool/framework approaches the same problem
 (e.g., the Playwright C# UI suite vs. the Playwright TypeScript UI suite vs.
 the Selenium suite, testing the same login flow).
-
-## Where to start
-
-If you only have time for one repo, **PlaywrightTestingShowcase** is the
-best entry point — it covers three testing layers (unit/API/UI) and the
-most CI/reporting depth in one place. From there,
-**ApplitoolsPlaywrightCSharp** and **BrowserStackMobileTests** each show a
-different specialized capability built on the same Playwright/C#/NUnit
-foundation, and **JMeterLoadTestExample**/**K6LoadTestExample** show
-the same load test built in a GUI tool vs. written as code.

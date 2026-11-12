@@ -8,6 +8,10 @@ I help teams build confidence in software by testing behavior across unit, API, 
 
 🎮 **Want to learn Playwright?** Play the [Playwright Dungeon Crawl](https://playwright-dungeon-crawl.onrender.com), a free, hands-on game I built: write real Playwright tests, in **C# or TypeScript**, to clear trap rooms floor by floor. All nineteen floors, from locators and auto-waiting to tabs, file uploads, two users signed in at once, API testing, mocked responses, the Page Object Model, parallel tests, visual comparison, device and clock emulation, with bosses on floors 7 and 13 and a final boss that is a flaky test. Sign in with GitHub to save your progress, climb the leaderboard, earn verifiable certificates you can add to LinkedIn (up to Ultimate Dungeoneer for clearing every floor), spend XP on titles and torches in the loot shop, replay cleared rooms as Cursed Runs, and join the Hall of Bugslayers by reporting a real bug in the game. *It's on a free host, so the first visit can take a minute to wake up.*
 
+![A 20-second tour of Playwright Dungeon Crawl: the dungeon map, a trap room that opens only for a test and gives up its treasure flag, the Curator's Eye where a forgery must be found with screenshots, and The Flake, the final boss.](assets/dungeon-tour.gif)
+
+<sub>Recorded with [Showrunner](https://github.com/gillersja1/Showrunner), my tool that turns a scripted Playwright flow into a demo video.</sub>
+
 ## Where to start
 
 Short on time? These four show the most:

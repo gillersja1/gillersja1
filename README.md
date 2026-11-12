@@ -1,6 +1,8 @@
-# Josh Giller | Quality Analyst & Test Automation Engineer
+# Josh Giller | Senior Quality Engineer, SDET & Test Automation Engineer
 
 I help teams build confidence in software by testing behavior across unit, API, UI, real mobile devices, performance, and visual quality. This portfolio demonstrates hands-on quality analysis and automation engineering across C#, TypeScript, and Kotlin, with CI pipelines and reporting that make results actionable.
+
+💼 Previously **Staff Quality Analyst at FanDuel**: primary lead tester for the new Picks and Predicts apps on iOS and Android, mobile test automation with TypeScript, Appium, Playwright and BrowserStack, and testing for the DFS website and Sportsbook apps.
 
 📄 [LinkedIn](https://www.linkedin.com/in/josh-giller/)
 

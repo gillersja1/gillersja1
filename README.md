@@ -12,6 +12,8 @@ I help teams build confidence in software by testing behavior across unit, API, 
 
 ![A 20-second tour of Playwright Dungeon Crawl: the dungeon map, a trap room that opens only for a test and gives up its treasure flag, the Curator's Eye where a forgery must be found with screenshots, and The Flake, the final boss.](assets/dungeon-tour.gif)
 
+🪲 **Want to practice finding bugs instead?** Try [Squash Me If You Can](https://gillersja1.github.io/squash-me-if-you-can), a bug hunt I built: a dungeon gear shop with **20 bugs hidden on purpose** (8 easy, 7 medium, 5 hard). Report what you find through its GitHub issue form; confirmed finds earn a spot in the Hall of Squashers.
+
 <sub>Recorded with [Showrunner](https://github.com/gillersja1/Showrunner), my tool that turns a scripted Playwright flow into a demo video.</sub>
 
 ## Where to start
@@ -37,6 +39,8 @@ From there, [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/Applitool
 | Real-device mobile testing | [BrowserStackMobileTests](https://github.com/gillersja1/BrowserStackMobileTests) |
 | Native Android app & tests | [CollectorsTrackingApp](https://github.com/gillersja1/CollectorsTrackingApp) (unit, emulator UI tests, Firebase security-rules tests) |
 | Full-stack web app & tests | [The Loot Box Vault](https://github.com/gillersja1/the-loot-box-vault) (React + Firebase; unit, Firestore security-rules and Playwright e2e tests against the Firebase emulators) |
+| [Squash Me If You Can](https://github.com/gillersja1/squash-me-if-you-can) ([play](https://gillersja1.github.io/squash-me-if-you-can)) | HTML, CSS, JavaScript, Playwright | A bug hunt for testers: a dungeon gear shop with 20 intentional bugs, from typos to race conditions and accessibility gaps, reported through a GitHub issue form, with a live Hall of Squashers built from confirmed issues. Public tests cover only what should work; a private answer key marks each planted bug as an expected failure, so CI fails if one is fixed by accident | [![CI](https://github.com/gillersja1/squash-me-if-you-can/actions/workflows/ci.yml/badge.svg)](https://github.com/gillersja1/squash-me-if-you-can/actions/workflows/ci.yml) |
+| Exploratory testing & bug reporting | [Squash Me If You Can](https://github.com/gillersja1/squash-me-if-you-can) (a practice site with 20 planted bugs; a private answer key of expected-failure Playwright tests proves every bug still reproduces) |
 | Visual regression | [ApplitoolsPlaywrightCSharp](https://github.com/gillersja1/ApplitoolsPlaywrightCSharp) |
 | Accessibility | [PlaywrightTestingShowcase](https://github.com/gillersja1/PlaywrightTestingShowcase) |
 | Test strategy | [PlaywrightTestingShowcase/docs/TEST_STRATEGY.md](https://github.com/gillersja1/PlaywrightTestingShowcase/blob/main/docs/TEST_STRATEGY.md): risk-based coverage, flaky-test policy, defect triage |
